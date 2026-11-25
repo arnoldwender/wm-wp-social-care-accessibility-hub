@@ -1,0 +1,529 @@
+# Translation of wm-social-care-accessibility-hub in fi_FI
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-social-care-accessibility-hub 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-social-care-accessibility-hub\n"
+"POT-Creation-Date: 2026-11-21 15:56+0100\n"
+"PO-Revision-Date: 2026-11-21 15:58+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-social-care-"
+"accessibility-hub/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-social-care-"
+"accessibility-hub/issues>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-social-care-accessibility-hub\n"
+
+#: includes/API/REST_Controller.php:55
+msgid "Nur Leseanfragen (GET) sind für diesen Endpunkt erlaubt."
+msgstr "Vain lukupyynnöt (GET) ovat sallittuja tälle päätepisteelle."
+
+#: includes/API/REST_Controller.php:66
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Liian monta pyyntöä. Yritä uudelleen minuutin kuluttua."
+
+#: includes/Admin/Admin_Dashboard.php:73 includes/Admin/Admin_Dashboard.php:185
+msgid "Social Care Accessibility Hub"
+msgstr "Hoivan saavutettavuuskeskus"
+
+#: includes/Admin/Admin_Dashboard.php:74
+msgid "Social Care A11y"
+msgstr "Social Care A11y"
+
+#: includes/Admin/Admin_Dashboard.php:124
+msgid "Leichte-Sprache-Karte"
+msgstr "Selkokielinen kortti"
+
+#: includes/Admin/Admin_Dashboard.php:126
+msgid ""
+"Shortcode wm_leichte_sprache_card mit Mediopunkt-Trennung für Fachbegriffe."
+msgstr ""
+"Lyhytkoodi wm_leichte_sprache_card Mediopunkt-erottimella yhdyssanoille."
+
+#: includes/Admin/Admin_Dashboard.php:129
+msgid "Pflege-Bedarfscheck"
+msgstr "Hoivaetuuksien tarkistus"
+
+#: includes/Admin/Admin_Dashboard.php:131
+msgid ""
+"Shortcode wm_social_care_bedarfscheck: gesetzliche Höchstbeträge nach §§ 36, "
+"37, 42a und 45b SGB XI für die Pflegegrade 1 bis 5."
+msgstr ""
+"Lyhytkoodi wm_social_care_bedarfscheck: lakisääteiset enimmäismäärät §§ 36, "
+"37, 42a ja 45b SGB XI mukaan hoitoisuusluokille 1–5."
+
+#: includes/Admin/Admin_Dashboard.php:134
+msgid "Barrierefreiheits-Toolbar"
+msgstr "Saavutettavuuspalkki"
+
+#: includes/Admin/Admin_Dashboard.php:136
+msgid "Shortcode wm_a11y_toolbar: Schriftgröße, Kontrast, Vorlesen."
+msgstr "Lyhytkoodi wm_a11y_toolbar: tekstikoko, kontrasti, ääneenlukeminen."
+
+#: includes/Admin/Admin_Dashboard.php:139
+msgid "Videothek"
+msgstr "Videokirjasto"
+
+#: includes/Admin/Admin_Dashboard.php:141
+msgid ""
+"Shortcode wm_videothek_loesungswege: die acht eingebauten Beispiele "
+"untereinander."
+msgstr ""
+"Lyhytkoodi wm_videothek_loesungswege: kahdeksan sisäänrakennettua esimerkkiä "
+"allekkain."
+
+#: includes/Admin/Admin_Dashboard.php:144
+msgid "Einzelner Player"
+msgstr "Yksittäinen soitin"
+
+#: includes/Admin/Admin_Dashboard.php:146
+msgid ""
+"Shortcode wm_video_player: ein eingebautes Beispiel über das Attribut id (1 "
+"bis 8)."
+msgstr ""
+"Lyhytkoodi wm_video_player: yksi sisäänrakennettu esimerkki id-attribuutilla "
+"(1–8)."
+
+#: includes/Admin/Admin_Dashboard.php:149
+msgid "Beitragstyp Lösungsweg"
+msgstr "Sisältötyyppi Lösungsweg"
+
+#: includes/Admin/Admin_Dashboard.php:154
+#, php-format
+msgid ""
+"%d Lösungsweg veröffentlicht. Die Shortcodes wm_videothek_loesungswege und "
+"wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute "
+"Beispiele."
+msgid_plural ""
+"%d Lösungswege veröffentlicht. Die Shortcodes wm_videothek_loesungswege und "
+"wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute "
+"Beispiele."
+msgstr[0] ""
+"%d Lösungsweg julkaistu. Lyhytkoodit wm_videothek_loesungswege ja "
+"wm_video_player eivät näytä näitä julkaisuja vaan kahdeksan "
+"sisäänrakennettua esimerkkiä."
+msgstr[1] ""
+"%d Lösungswege julkaistu. Lyhytkoodit wm_videothek_loesungswege ja "
+"wm_video_player eivät näytä näitä julkaisuja vaan kahdeksan "
+"sisäänrakennettua esimerkkiä."
+
+#: includes/Admin/Admin_Dashboard.php:174
+msgid ""
+"Auswahl des Pflegegrads mit den gesetzlichen Höchstbeträgen (Stand der "
+"Beträge im Code)."
+msgstr ""
+"Hoitoisuusluokan valinta lakisääteisillä enimmäismäärillä (päiväys koodissa)."
+
+#: includes/Admin/Admin_Dashboard.php:175
+msgid ""
+"Content-Box in Leichter Sprache mit Mediopunkt; Attribute title und "
+"pictogram, Inhalt zwischen den Tags."
+msgstr ""
+"Selkokielinen sisältölaatikko Mediopunkt-merkinnällä; attribuutit title ja "
+"pictogram, sisältö tunnisteiden välissä."
+
+#: includes/Admin/Admin_Dashboard.php:176
+msgid "Barrierefreiheits-Toolbar (Schriftgröße, Kontrast, Vorlesen)."
+msgstr "Saavutettavuuspalkki (tekstikoko, kontrasti, ääneenlukeminen)."
+
+#: includes/Admin/Admin_Dashboard.php:177
+msgid "Alle acht eingebauten Beispiel-Lösungswege untereinander, ohne Filter."
+msgstr ""
+"Kaikki kahdeksan sisäänrakennettua esimerkkiopasta allekkain ilman "
+"suodatinta."
+
+#: includes/Admin/Admin_Dashboard.php:178
+msgid ""
+"Ein eingebautes Beispiel mit Schritten und Zusammenfassung in Leichter "
+"Sprache; Attribut id (1 bis 8)."
+msgstr ""
+"Yksi sisäänrakennettu esimerkki vaiheineen ja selkokielisine "
+"tiivistelmineen; attribuutti id (1–8)."
+
+#: includes/Admin/Admin_Dashboard.php:184
+msgid "Leichte Sprache & Pflege"
+msgstr "Selkokieli ja hoiva"
+
+#: includes/Admin/Admin_Dashboard.php:186
+msgid ""
+"Was dieses Plugin auf dieser Website registriert. Es prüft keine Seite auf "
+"Barrierefreiheit und bewertet keine Rechtskonformität."
+msgstr ""
+"Mitä tämä lisäosa rekisteröi tällä sivustolla. Se ei tarkista sivujen "
+"saavutettavuutta eikä arvioi lakisääteistä vaatimustenmukaisuutta."
+
+#: includes/Admin/Admin_Dashboard.php:189
+msgid "Part of the WM Suite plugin family"
+msgstr "Osa WM Suiten lisäosaperhettä"
+
+#: includes/Admin/Admin_Dashboard.php:191
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Standalone"
+msgstr "Itsenäinen"
+
+#: includes/Admin/Admin_Dashboard.php:198
+msgid "Registrierte Funktionen"
+msgstr "Rekisteröidyt toiminnot"
+
+#: includes/Admin/Admin_Dashboard.php:200
+msgid ""
+"Jeder Status wird beim Aufruf dieser Seite gemessen, nicht behauptet. "
+"Skripte und Stile liegen im Plugin; die eingebauten Beispiele enthalten kein "
+"Video."
+msgstr ""
+"Jokainen tila mitataan sivua avattaessa. Skriptit ja tyylit ovat lisäosassa; "
+"sisäänrakennetuissa esimerkeissä ei ole videota."
+
+#: includes/Admin/Admin_Dashboard.php:204
+msgid "Funktion"
+msgstr "Toiminto"
+
+#: includes/Admin/Admin_Dashboard.php:205
+msgid "Status"
+msgstr "Tila"
+
+#: includes/Admin/Admin_Dashboard.php:206
+msgid "Was registriert ist"
+msgstr "Mitä on rekisteröity"
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Nicht registriert"
+msgstr "Ei rekisteröity"
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Registriert"
+msgstr "Rekisteröity"
+
+#: includes/Admin/Admin_Dashboard.php:226
+msgid "Shortcodes für Seiten und Beiträge"
+msgstr "Lyhytkoodit sivuille ja artikkeleille"
+
+#: includes/Admin/Admin_Dashboard.php:235
+msgid "Deinstallation & Datenerhalt"
+msgstr "Poistaminen ja tietojen säilytys"
+
+#: includes/Admin/Admin_Dashboard.php:236
+msgid ""
+"Standardmäßig bewahrt das Plugin alle Optionen und Inhalte beim Löschen auf. "
+"Aktivieren Sie die folgende Option nur, wenn Plugin-Einstellungen und "
+"temporäre Rate-Limit-Daten bei der Deinstallation endgültig entfernt werden "
+"sollen."
+msgstr ""
+"Oletuksena lisäosa säilyttää kaikki asetukset ja sisällöt poistettaessa. Ota "
+"alla oleva valinta käyttöön vain, jos asetukset ja väliaikaiset "
+"nopeusrajoitustiedot halutaan poistaa pysyvästi asennuksen poiston "
+"yhteydessä."
+
+#: includes/Admin/Admin_Dashboard.php:249
+msgid ""
+"Plugin-Optionen und Rate-Limit-Transients beim Löschen des Plugins entfernen "
+"(Beiträge vom Typ Lösungsweg bleiben als Website-Inhalt erhalten)."
+msgstr ""
+"Poista lisäosan asetukset ja nopeusrajoituksen välimuistitiedot "
+"poistettaessa (Lösungsweg-julkaisut säilyvät sivuston sisältönä)."
+
+#: includes/Admin/Admin_Dashboard.php:252
+msgid "Einstellung speichern"
+msgstr "Tallenna asetus"
+
+#: includes/Domain/Video_Repository.php:25
+msgid "Lösungswege"
+msgstr "Ratkaisuoppaat"
+
+#: includes/Domain/Video_Repository.php:26
+msgid "Lösungsweg"
+msgstr "Ratkaisuopas"
+
+#: includes/Domain/Video_Repository.php:27
+msgid "Neuen Lösungsweg anlegen"
+msgstr "Lisää uusi ratkaisuopas"
+
+#: includes/Domain/Video_Repository.php:28
+msgid "Lösungsweg bearbeiten"
+msgstr "Muokkaa ratkaisuopasta"
+
+#: includes/Domain/Video_Repository.php:29
+msgid "Lösungswege durchsuchen"
+msgstr "Etsi ratkaisuoppaita"
+
+#: includes/Domain/Video_Repository.php:30
+msgid "Keine Lösungswege gefunden"
+msgstr "Ratkaisuoppaita ei löytynyt"
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorie"
+msgstr "Kategoria"
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorien"
+msgstr "Kategoriat"
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppe"
+msgstr "Kohderyhmä"
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppen"
+msgstr "Kohderyhmät"
+
+#: includes/Domain/Video_Repository.php:56
+msgid "Hilfsmittel"
+msgstr "Apuvälineet"
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrad"
+msgstr "Hoitoisuusluokka"
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrade"
+msgstr "Hoitoisuusluokat"
+
+#: includes/Frontend/Accessibility_Toolbar.php:18
+msgid "Vorlesen"
+msgstr "Lue ääneen"
+
+#: includes/Frontend/Accessibility_Toolbar.php:19
+msgid "Stopp"
+msgstr "Pysäytä"
+
+#: includes/Frontend/Accessibility_Toolbar.php:20
+msgid "Ihr Browser unterstützt keine direkte Sprachausgabe."
+msgstr "Selaimesi ei tue suoraa puhesynteesiä."
+
+#: includes/Frontend/Accessibility_Toolbar.php:25
+msgid "Barrierefreiheits-Optionen"
+msgstr "Saavutettavuusasetukset"
+
+#: includes/Frontend/Accessibility_Toolbar.php:28
+msgid "Schriftgröße anpassen"
+msgstr "Säädä kirjasinkokoa"
+
+#: includes/Frontend/Accessibility_Toolbar.php:29
+msgid "Schriftgröße verkleinern"
+msgstr "Pienennä kirjasinkokoa"
+
+#: includes/Frontend/Accessibility_Toolbar.php:30
+msgid "Schriftgröße zurücksetzen"
+msgstr "Palauta kirjasinkoko"
+
+#: includes/Frontend/Accessibility_Toolbar.php:31
+msgid "Schriftgröße vergrößern"
+msgstr "Suurenna kirjasinkokoa"
+
+#: includes/Frontend/Accessibility_Toolbar.php:35
+msgid "Farbkontrast wählen"
+msgstr "Valitse värikontrasti"
+
+#: includes/Frontend/Accessibility_Toolbar.php:38
+msgid "Kontrast"
+msgstr "Kontrasti"
+
+#: includes/Frontend/Accessibility_Toolbar.php:43
+msgid "Vorlesefunktion"
+msgstr "Ääneenlukutoiminto"
+
+#. translators: %s: title of the example.
+#: includes/Frontend/Accessible_Video_Player.php:32
+#, php-format
+msgid "Lösungsweg: %s"
+msgstr "Ratkaisuopas: %s"
+
+#: includes/Frontend/Accessible_Video_Player.php:42
+msgid "Dauer:"
+msgstr "Kesto:"
+
+#: includes/Frontend/Accessible_Video_Player.php:59
+msgid "Deutsch (Untertitel)"
+msgstr "Saksa (tekstitys)"
+
+#: includes/Frontend/Accessible_Video_Player.php:66
+msgid "Ihr Browser unterstützt kein direktes HTML5-Video."
+msgstr "Selaimesi ei tue suoraa HTML5-videota."
+
+#: includes/Frontend/Accessible_Video_Player.php:78
+msgid "Schritt-für-Schritt-Anleitung:"
+msgstr "Vaiheittaiset ohjeet:"
+
+#: includes/Frontend/Accessible_Video_Player.php:92
+msgid "In Leichter Sprache (DIN SPEC 33429):"
+msgstr "Selkokielellä (DIN SPEC 33429):"
+
+#: includes/Frontend/Ecosystem_Integrations.php:27
+#: includes/Frontend/Ecosystem_Integrations.php:36
+msgid "Social Care SGB-XI-Info"
+msgstr "Social Care SGB XI -tiedot"
+
+#: includes/Frontend/Ecosystem_Integrations.php:40
+msgid "Gesetzliche SGB-XI-Höchstbeträge und Stand der Beträge."
+msgstr "Lakisääteiset SGB XI -enimmäismäärät ja voimaantulopäivä."
+
+#: includes/Frontend/Ecosystem_Integrations.php:44
+msgid "Feld"
+msgstr "Kenttä"
+
+#: includes/Frontend/Ecosystem_Integrations.php:47
+msgid "Zusammenfassung (Entlastungsbetrag)"
+msgstr "Yhteenveto (kevennyskorvaus)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:48
+msgid "Entlastungsbetrag / Monat"
+msgstr "Kevennyskorvaus / kk"
+
+#: includes/Frontend/Ecosystem_Integrations.php:49
+msgid "Entlastungsbetrag / Jahr"
+msgstr "Kevennyskorvaus / vuosi"
+
+#: includes/Frontend/Ecosystem_Integrations.php:50
+msgid "Pflegegeld / Monat (§ 37)"
+msgstr "Hoitoraha / kk (§ 37)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:51
+msgid "Pflegesachleistung / Monat (§ 36)"
+msgstr "Hoivapalveluetuus / kk (§ 36)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:52
+msgid "Gemeinsamer Jahresbetrag (§ 42a)"
+msgstr "Yhteinen vuosibudjetti (§ 42a)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:53
+msgid "Stand der Beträge"
+msgstr "Määrien voimassaolopäivä"
+
+#: includes/Frontend/Ecosystem_Integrations.php:54
+msgid "Anzahl Beispiel-Lösungswege"
+msgstr "Esimerkkioppaiden määrä"
+
+#: includes/Frontend/Ecosystem_Integrations.php:59
+msgid "Pflegegrad (1–5)"
+msgstr "Hoitoisuusluokka (1–5)"
+
+#. translators: 1: monthly relief amount in euros, 2: statutory as-of date.
+#: includes/Frontend/Ecosystem_Integrations.php:91
+#, php-format
+msgid "Entlastungsbetrag: %1$s / Monat (Stand %2$s)"
+msgstr "Kevennyskorvaus: %1$s / kk (tilanne %2$s)"
+
+#: includes/Frontend/Shortcodes.php:112 includes/Frontend/Shortcodes.php:114
+msgid "Beispiel-Lösungswege"
+msgstr "Esimerkkiratkaisuoppaat"
+
+#: includes/Frontend/Shortcodes.php:115
+msgid ""
+"Acht eingebaute Beispiele mit Schritt-für-Schritt-Anleitung und einer "
+"Zusammenfassung in Leichter Sprache."
+msgstr ""
+"Kahdeksan sisäänrakennettua esimerkkiä vaiheittaisilla ohjeilla ja "
+"selkokielisellä yhteenvedolla."
+
+#. translators: %d: care degree from 1 to 5.
+#: includes/Frontend/Shortcodes.php:194
+#, php-format
+msgid "Ergebnis für Pflegegrad %d:"
+msgstr "Tulos hoitoisuusluokalle %d:"
+
+#: includes/Frontend/Shortcodes.php:195
+msgid "Entlastungsbetrag (§ 45b SGB XI):"
+msgstr "Kevennyskorvaus (§ 45b SGB XI):"
+
+#. translators: 1: monthly amount in euros, 2: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:197
+#, php-format
+msgid "%1$s € / Monat (%2$s € / Jahr für Alltagsbegleitung)"
+msgstr "%1$s € / kk (%2$s € / vuosi arjen tukeen)"
+
+#: includes/Frontend/Shortcodes.php:198
+msgid "Pflegegeld (§ 37 SGB XI):"
+msgstr "Hoitoraha (§ 37 SGB XI):"
+
+#. translators: %s: monthly amount in euros.
+#: includes/Frontend/Shortcodes.php:200
+#, php-format
+msgid "%s € / Monat"
+msgstr "%s € / kk"
+
+#: includes/Frontend/Shortcodes.php:201
+msgid ""
+"Verhinderungs- und Kurzzeitpflege (§ 42a SGB XI, gemeinsamer Jahresbetrag):"
+msgstr "Sijais- ja lyhytaikaishoito (§ 42a SGB XI, yhteinen vuosibudjetti):"
+
+#. translators: %s: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:203
+#, php-format
+msgid "Bis zu %s € / Jahr"
+msgstr "Enintään %s € / vuosi"
+
+#: includes/Frontend/Shortcodes.php:204
+msgid "Anerkennung NRW:"
+msgstr "NRW-hyväksyntä:"
+
+#: includes/Frontend/Shortcodes.php:205
+msgid "Voll abrechenbar über alle Pflegekassen nach AnFöVO."
+msgstr "Laskutettavissa hoivavakuutuskassojen kautta AnFöVO:n mukaisesti."
+
+#. translators: %s: date of the statutory amounts (YYYY-MM-DD).
+#: includes/Frontend/Shortcodes.php:207
+#, php-format
+msgid "Stand der Beträge: %s (gilt unverändert 2026)."
+msgstr "Määrien päiväys: %s (ennallaan vuonna 2026)."
+
+#: includes/Frontend/Shortcodes.php:211
+msgid "Pflege-Bedarfscheck nach SGB XI"
+msgstr "SGB XI -hoivaetuustarkistus"
+
+#: includes/Frontend/Shortcodes.php:212
+msgid "Pflege-Bedarfscheck (SGB XI & AnFöVO NRW)"
+msgstr "Hoivaetuustarkistus (SGB XI & AnFöVO NRW)"
+
+#: includes/Frontend/Shortcodes.php:213
+msgid ""
+"Wählen Sie Ihren Pflegegrad, um Ihre gesetzlichen Leistungsansprüche zu "
+"berechnen:"
+msgstr "Valitse hoitoisuusluokkasi laskeaksesi lakisääteiset etuutesi:"
+
+#: includes/Frontend/Shortcodes.php:216
+msgid "Aktueller Pflegegrad:"
+msgstr "Nykyinen hoitoisuusluokka:"
+
+#: includes/Frontend/Shortcodes.php:218
+msgid "Pflegegrad 1 (Geringe Beeinträchtigung)"
+msgstr "Hoitoisuusluokka 1 (Vähäinen toimintarajoite)"
+
+#: includes/Frontend/Shortcodes.php:219
+msgid "Pflegegrad 2 (Erhebliche Beeinträchtigung)"
+msgstr "Hoitoisuusluokka 2 (Merkittävä toimintarajoite)"
+
+#: includes/Frontend/Shortcodes.php:220
+msgid "Pflegegrad 3 (Schwere Beeinträchtigung)"
+msgstr "Hoitoisuusluokka 3 (Vaikea toimintarajoite)"
+
+#: includes/Frontend/Shortcodes.php:221
+msgid "Pflegegrad 4 (Schwerste Beeinträchtigung)"
+msgstr "Hoitoisuusluokka 4 (Erittäin vaikea toimintarajoite)"
+
+#: includes/Frontend/Shortcodes.php:222
+msgid "Pflegegrad 5 (Härtefall / Vollpflege)"
+msgstr "Hoitoisuusluokka 5 (Erityisen vaativa täyshoito)"
+
+#: includes/Frontend/Shortcodes.php:224
+msgid "Ansprüche berechnen"
+msgstr "Laske etuudet"
+
+#: includes/Frontend/Shortcodes.php:385
+msgid "Information in Leichter Sprache"
+msgstr "Tietoa selkokielellä"
+
+#: includes/Frontend/Shortcodes.php:410
+msgid "Text nach den Regeln der Leichten Sprache (DIN SPEC 33429)."
+msgstr "Teksti selkokielen periaatteiden mukaisesti (DIN SPEC 33429)."

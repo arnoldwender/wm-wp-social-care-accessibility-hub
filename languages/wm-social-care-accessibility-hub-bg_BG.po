@@ -1,0 +1,524 @@
+# Translation of wm-social-care-accessibility-hub in bg_BG
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-social-care-accessibility-hub 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-social-care-accessibility-hub\n"
+"POT-Creation-Date: 2026-11-21 15:56+0100\n"
+"PO-Revision-Date: 2026-11-21 15:58+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-social-care-"
+"accessibility-hub/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-social-care-"
+"accessibility-hub/issues>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-social-care-accessibility-hub\n"
+
+#: includes/API/REST_Controller.php:55
+msgid "Nur Leseanfragen (GET) sind für diesen Endpunkt erlaubt."
+msgstr "За тази крайна точка са разрешени само заявки за четене (GET)."
+
+#: includes/API/REST_Controller.php:66
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Твърде много заявки. Опитайте отново след една минута."
+
+#: includes/Admin/Admin_Dashboard.php:73 includes/Admin/Admin_Dashboard.php:185
+msgid "Social Care Accessibility Hub"
+msgstr "Център за достъпност в социалните грижи"
+
+#: includes/Admin/Admin_Dashboard.php:74
+msgid "Social Care A11y"
+msgstr "Social Care A11y"
+
+#: includes/Admin/Admin_Dashboard.php:124
+msgid "Leichte-Sprache-Karte"
+msgstr "Карта на лесен език"
+
+#: includes/Admin/Admin_Dashboard.php:126
+msgid ""
+"Shortcode wm_leichte_sprache_card mit Mediopunkt-Trennung für Fachbegriffe."
+msgstr ""
+"Кратък код wm_leichte_sprache_card с разделяне чрез Mediopunkt за сложни "
+"термини."
+
+#: includes/Admin/Admin_Dashboard.php:129
+msgid "Pflege-Bedarfscheck"
+msgstr "Проверка на права за грижа"
+
+#: includes/Admin/Admin_Dashboard.php:131
+msgid ""
+"Shortcode wm_social_care_bedarfscheck: gesetzliche Höchstbeträge nach §§ 36, "
+"37, 42a und 45b SGB XI für die Pflegegrade 1 bis 5."
+msgstr ""
+"Кратък код wm_social_care_bedarfscheck: законови максимални суми по §§ 36, "
+"37, 42a и 45b SGB XI за степени на грижа 1 до 5."
+
+#: includes/Admin/Admin_Dashboard.php:134
+msgid "Barrierefreiheits-Toolbar"
+msgstr "Лента за достъпност"
+
+#: includes/Admin/Admin_Dashboard.php:136
+msgid "Shortcode wm_a11y_toolbar: Schriftgröße, Kontrast, Vorlesen."
+msgstr ""
+"Кратък код wm_a11y_toolbar: размер на шрифта, контраст, четене на глас."
+
+#: includes/Admin/Admin_Dashboard.php:139
+msgid "Videothek"
+msgstr "Видеотека"
+
+#: includes/Admin/Admin_Dashboard.php:141
+msgid ""
+"Shortcode wm_videothek_loesungswege: die acht eingebauten Beispiele "
+"untereinander."
+msgstr ""
+"Кратък код wm_videothek_loesungswege: осемте вградени примера един под друг."
+
+#: includes/Admin/Admin_Dashboard.php:144
+msgid "Einzelner Player"
+msgstr "Единичен плейър"
+
+#: includes/Admin/Admin_Dashboard.php:146
+msgid ""
+"Shortcode wm_video_player: ein eingebautes Beispiel über das Attribut id (1 "
+"bis 8)."
+msgstr ""
+"Кратък код wm_video_player: един вграден пример чрез атрибута id (от 1 до 8)."
+
+#: includes/Admin/Admin_Dashboard.php:149
+msgid "Beitragstyp Lösungsweg"
+msgstr "Тип съдържание Lösungsweg"
+
+#: includes/Admin/Admin_Dashboard.php:154
+#, php-format
+msgid ""
+"%d Lösungsweg veröffentlicht. Die Shortcodes wm_videothek_loesungswege und "
+"wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute "
+"Beispiele."
+msgid_plural ""
+"%d Lösungswege veröffentlicht. Die Shortcodes wm_videothek_loesungswege und "
+"wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute "
+"Beispiele."
+msgstr[0] ""
+"Публикуван %d Lösungsweg. Кратките кодове wm_videothek_loesungswege и "
+"wm_video_player не показват тези публикации, а осем вградени примера."
+msgstr[1] ""
+"Публикувани %d Lösungswege. Кратките кодове wm_videothek_loesungswege и "
+"wm_video_player не показват тези публикации, а осем вградени примера."
+
+#: includes/Admin/Admin_Dashboard.php:174
+msgid ""
+"Auswahl des Pflegegrads mit den gesetzlichen Höchstbeträgen (Stand der "
+"Beträge im Code)."
+msgstr ""
+"Избор на степен на грижа със законовите максимални суми (датата е записана в "
+"кода)."
+
+#: includes/Admin/Admin_Dashboard.php:175
+msgid ""
+"Content-Box in Leichter Sprache mit Mediopunkt; Attribute title und "
+"pictogram, Inhalt zwischen den Tags."
+msgstr ""
+"Кутия със съдържание на лесен език с Mediopunkt; атрибути title и pictogram, "
+"текст между таговете."
+
+#: includes/Admin/Admin_Dashboard.php:176
+msgid "Barrierefreiheits-Toolbar (Schriftgröße, Kontrast, Vorlesen)."
+msgstr "Лента за достъпност (размер на шрифта, контраст, четене на глас)."
+
+#: includes/Admin/Admin_Dashboard.php:177
+msgid "Alle acht eingebauten Beispiel-Lösungswege untereinander, ohne Filter."
+msgstr "Всички осем вградени примерни ръководства едно под друго без филтър."
+
+#: includes/Admin/Admin_Dashboard.php:178
+msgid ""
+"Ein eingebautes Beispiel mit Schritten und Zusammenfassung in Leichter "
+"Sprache; Attribut id (1 bis 8)."
+msgstr ""
+"Един вграден пример със стъпки и резюме на лесен език; атрибут id (1 до 8)."
+
+#: includes/Admin/Admin_Dashboard.php:184
+msgid "Leichte Sprache & Pflege"
+msgstr "Лесен език и грижи"
+
+#: includes/Admin/Admin_Dashboard.php:186
+msgid ""
+"Was dieses Plugin auf dieser Website registriert. Es prüft keine Seite auf "
+"Barrierefreiheit und bewertet keine Rechtskonformität."
+msgstr ""
+"Какво регистрира тази приставка на този уебсайт. Тя не проверява "
+"достъпността на страниците и не оценява правното съответствие."
+
+#: includes/Admin/Admin_Dashboard.php:189
+msgid "Part of the WM Suite plugin family"
+msgstr "Част от семейството приставки на WM Suite"
+
+#: includes/Admin/Admin_Dashboard.php:191
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Hub"
+msgstr "Хъб"
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Standalone"
+msgstr "Самостоятелен"
+
+#: includes/Admin/Admin_Dashboard.php:198
+msgid "Registrierte Funktionen"
+msgstr "Регистрирани функции"
+
+#: includes/Admin/Admin_Dashboard.php:200
+msgid ""
+"Jeder Status wird beim Aufruf dieser Seite gemessen, nicht behauptet. "
+"Skripte und Stile liegen im Plugin; die eingebauten Beispiele enthalten kein "
+"Video."
+msgstr ""
+"Всеки статус се измерва при зареждане на страницата. Скриптовете и стиловете "
+"са в приставката; вградените примери не съдържат видео."
+
+#: includes/Admin/Admin_Dashboard.php:204
+msgid "Funktion"
+msgstr "Функция"
+
+#: includes/Admin/Admin_Dashboard.php:205
+msgid "Status"
+msgstr "Статус"
+
+#: includes/Admin/Admin_Dashboard.php:206
+msgid "Was registriert ist"
+msgstr "Какво е регистрирано"
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Nicht registriert"
+msgstr "Не е регистрирано"
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Registriert"
+msgstr "Регистрирано"
+
+#: includes/Admin/Admin_Dashboard.php:226
+msgid "Shortcodes für Seiten und Beiträge"
+msgstr "Кратки кодове за страници и публикации"
+
+#: includes/Admin/Admin_Dashboard.php:235
+msgid "Deinstallation & Datenerhalt"
+msgstr "Деинсталиране и запазване на данни"
+
+#: includes/Admin/Admin_Dashboard.php:236
+msgid ""
+"Standardmäßig bewahrt das Plugin alle Optionen und Inhalte beim Löschen auf. "
+"Aktivieren Sie die folgende Option nur, wenn Plugin-Einstellungen und "
+"temporäre Rate-Limit-Daten bei der Deinstallation endgültig entfernt werden "
+"sollen."
+msgstr ""
+"По подразбиране приставката запазва всички настройки и съдържание при "
+"изтриване. Включете опцията по-долу само ако настройките и временните данни "
+"за ограничаване на заявките трябва да бъдат изтрити при деинсталиране."
+
+#: includes/Admin/Admin_Dashboard.php:249
+msgid ""
+"Plugin-Optionen und Rate-Limit-Transients beim Löschen des Plugins entfernen "
+"(Beiträge vom Typ Lösungsweg bleiben als Website-Inhalt erhalten)."
+msgstr ""
+"Изтриване на настройките на приставката и временните данни за лимит при "
+"изтриване (публикациите Lösungsweg се запазват)."
+
+#: includes/Admin/Admin_Dashboard.php:252
+msgid "Einstellung speichern"
+msgstr "Запазване на настройката"
+
+#: includes/Domain/Video_Repository.php:25
+msgid "Lösungswege"
+msgstr "Ръководства за решения"
+
+#: includes/Domain/Video_Repository.php:26
+msgid "Lösungsweg"
+msgstr "Ръководство за решение"
+
+#: includes/Domain/Video_Repository.php:27
+msgid "Neuen Lösungsweg anlegen"
+msgstr "Добавяне на ново ръководство"
+
+#: includes/Domain/Video_Repository.php:28
+msgid "Lösungsweg bearbeiten"
+msgstr "Редактиране на ръководство"
+
+#: includes/Domain/Video_Repository.php:29
+msgid "Lösungswege durchsuchen"
+msgstr "Търсене на ръководства"
+
+#: includes/Domain/Video_Repository.php:30
+msgid "Keine Lösungswege gefunden"
+msgstr "Няма намерени ръководства"
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorie"
+msgstr "Категория"
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorien"
+msgstr "Категории"
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppe"
+msgstr "Целева група"
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppen"
+msgstr "Целеви групи"
+
+#: includes/Domain/Video_Repository.php:56
+msgid "Hilfsmittel"
+msgstr "Помощни средства"
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrad"
+msgstr "Степен на грижа"
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrade"
+msgstr "Степени на грижа"
+
+#: includes/Frontend/Accessibility_Toolbar.php:18
+msgid "Vorlesen"
+msgstr "Прочети на глас"
+
+#: includes/Frontend/Accessibility_Toolbar.php:19
+msgid "Stopp"
+msgstr "Спри"
+
+#: includes/Frontend/Accessibility_Toolbar.php:20
+msgid "Ihr Browser unterstützt keine direkte Sprachausgabe."
+msgstr "Вашият браузър не поддържа директен синтез на реч."
+
+#: includes/Frontend/Accessibility_Toolbar.php:25
+msgid "Barrierefreiheits-Optionen"
+msgstr "Опции за достъпност"
+
+#: includes/Frontend/Accessibility_Toolbar.php:28
+msgid "Schriftgröße anpassen"
+msgstr "Промяна на размера на шрифта"
+
+#: includes/Frontend/Accessibility_Toolbar.php:29
+msgid "Schriftgröße verkleinern"
+msgstr "Намаляване на шрифта"
+
+#: includes/Frontend/Accessibility_Toolbar.php:30
+msgid "Schriftgröße zurücksetzen"
+msgstr "Нулиране на шрифта"
+
+#: includes/Frontend/Accessibility_Toolbar.php:31
+msgid "Schriftgröße vergrößern"
+msgstr "Увеличаване на шрифта"
+
+#: includes/Frontend/Accessibility_Toolbar.php:35
+msgid "Farbkontrast wählen"
+msgstr "Избор на цветен контраст"
+
+#: includes/Frontend/Accessibility_Toolbar.php:38
+msgid "Kontrast"
+msgstr "Контраст"
+
+#: includes/Frontend/Accessibility_Toolbar.php:43
+msgid "Vorlesefunktion"
+msgstr "Функция за четене на глас"
+
+#. translators: %s: title of the example.
+#: includes/Frontend/Accessible_Video_Player.php:32
+#, php-format
+msgid "Lösungsweg: %s"
+msgstr "Ръководство: %s"
+
+#: includes/Frontend/Accessible_Video_Player.php:42
+msgid "Dauer:"
+msgstr "Продължителност:"
+
+#: includes/Frontend/Accessible_Video_Player.php:59
+msgid "Deutsch (Untertitel)"
+msgstr "Немски (субтитри)"
+
+#: includes/Frontend/Accessible_Video_Player.php:66
+msgid "Ihr Browser unterstützt kein direktes HTML5-Video."
+msgstr "Вашият браузър не поддържа директно HTML5 видео."
+
+#: includes/Frontend/Accessible_Video_Player.php:78
+msgid "Schritt-für-Schritt-Anleitung:"
+msgstr "Инструкция стъпка по стъпка:"
+
+#: includes/Frontend/Accessible_Video_Player.php:92
+msgid "In Leichter Sprache (DIN SPEC 33429):"
+msgstr "На лесен език (DIN SPEC 33429):"
+
+#: includes/Frontend/Ecosystem_Integrations.php:27
+#: includes/Frontend/Ecosystem_Integrations.php:36
+msgid "Social Care SGB-XI-Info"
+msgstr "Информация SGB XI Social Care"
+
+#: includes/Frontend/Ecosystem_Integrations.php:40
+msgid "Gesetzliche SGB-XI-Höchstbeträge und Stand der Beträge."
+msgstr "Законови максимални суми по SGB XI и дата на валидност."
+
+#: includes/Frontend/Ecosystem_Integrations.php:44
+msgid "Feld"
+msgstr "Поле"
+
+#: includes/Frontend/Ecosystem_Integrations.php:47
+msgid "Zusammenfassung (Entlastungsbetrag)"
+msgstr "Обобщение (облекчаваща сума)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:48
+msgid "Entlastungsbetrag / Monat"
+msgstr "Облекчаваща сума / месец"
+
+#: includes/Frontend/Ecosystem_Integrations.php:49
+msgid "Entlastungsbetrag / Jahr"
+msgstr "Облекчаваща сума / година"
+
+#: includes/Frontend/Ecosystem_Integrations.php:50
+msgid "Pflegegeld / Monat (§ 37)"
+msgstr "Помощ за гледане / месец (§ 37)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:51
+msgid "Pflegesachleistung / Monat (§ 36)"
+msgstr "Непарични услуги / месец (§ 36)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:52
+msgid "Gemeinsamer Jahresbetrag (§ 42a)"
+msgstr "Общ годишен бюджет (§ 42a)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:53
+msgid "Stand der Beträge"
+msgstr "Дата на валидност на сумите"
+
+#: includes/Frontend/Ecosystem_Integrations.php:54
+msgid "Anzahl Beispiel-Lösungswege"
+msgstr "Брой примерни ръководства"
+
+#: includes/Frontend/Ecosystem_Integrations.php:59
+msgid "Pflegegrad (1–5)"
+msgstr "Степен на грижа (1–5)"
+
+#. translators: 1: monthly relief amount in euros, 2: statutory as-of date.
+#: includes/Frontend/Ecosystem_Integrations.php:91
+#, php-format
+msgid "Entlastungsbetrag: %1$s / Monat (Stand %2$s)"
+msgstr "Облекчаваща сума: %1$s / месец (към %2$s)"
+
+#: includes/Frontend/Shortcodes.php:112 includes/Frontend/Shortcodes.php:114
+msgid "Beispiel-Lösungswege"
+msgstr "Примерни ръководства за решения"
+
+#: includes/Frontend/Shortcodes.php:115
+msgid ""
+"Acht eingebaute Beispiele mit Schritt-für-Schritt-Anleitung und einer "
+"Zusammenfassung in Leichter Sprache."
+msgstr ""
+"Осем вградени примера с инструкции стъпка по стъпка и резюме на лесен език."
+
+#. translators: %d: care degree from 1 to 5.
+#: includes/Frontend/Shortcodes.php:194
+#, php-format
+msgid "Ergebnis für Pflegegrad %d:"
+msgstr "Резултат за степен на грижа %d:"
+
+#: includes/Frontend/Shortcodes.php:195
+msgid "Entlastungsbetrag (§ 45b SGB XI):"
+msgstr "Облекчаваща сума (§ 45b SGB XI):"
+
+#. translators: 1: monthly amount in euros, 2: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:197
+#, php-format
+msgid "%1$s € / Monat (%2$s € / Jahr für Alltagsbegleitung)"
+msgstr "%1$s € / месец (%2$s € / година за ежедневна подкрепа)"
+
+#: includes/Frontend/Shortcodes.php:198
+msgid "Pflegegeld (§ 37 SGB XI):"
+msgstr "Помощ за гледане (§ 37 SGB XI):"
+
+#. translators: %s: monthly amount in euros.
+#: includes/Frontend/Shortcodes.php:200
+#, php-format
+msgid "%s € / Monat"
+msgstr "%s € / месец"
+
+#: includes/Frontend/Shortcodes.php:201
+msgid ""
+"Verhinderungs- und Kurzzeitpflege (§ 42a SGB XI, gemeinsamer Jahresbetrag):"
+msgstr "Заместваща и краткосрочна грижа (§ 42a SGB XI, общ годишен бюджет):"
+
+#. translators: %s: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:203
+#, php-format
+msgid "Bis zu %s € / Jahr"
+msgstr "До %s € / година"
+
+#: includes/Frontend/Shortcodes.php:204
+msgid "Anerkennung NRW:"
+msgstr "Признаване в NRW:"
+
+#: includes/Frontend/Shortcodes.php:205
+msgid "Voll abrechenbar über alle Pflegekassen nach AnFöVO."
+msgstr "Отчита се през здравноосигурителните каси за грижи съгласно AnFöVO."
+
+#. translators: %s: date of the statutory amounts (YYYY-MM-DD).
+#: includes/Frontend/Shortcodes.php:207
+#, php-format
+msgid "Stand der Beträge: %s (gilt unverändert 2026)."
+msgstr "Актуалност на сумите: %s (без промяна през 2026 г.)."
+
+#: includes/Frontend/Shortcodes.php:211
+msgid "Pflege-Bedarfscheck nach SGB XI"
+msgstr "Проверка на права по SGB XI"
+
+#: includes/Frontend/Shortcodes.php:212
+msgid "Pflege-Bedarfscheck (SGB XI & AnFöVO NRW)"
+msgstr "Проверка на права (SGB XI и AnFöVO NRW)"
+
+#: includes/Frontend/Shortcodes.php:213
+msgid ""
+"Wählen Sie Ihren Pflegegrad, um Ihre gesetzlichen Leistungsansprüche zu "
+"berechnen:"
+msgstr ""
+"Изберете вашата степен на грижа, за да изчислите законовите обезщетения:"
+
+#: includes/Frontend/Shortcodes.php:216
+msgid "Aktueller Pflegegrad:"
+msgstr "Текуща степен на грижа:"
+
+#: includes/Frontend/Shortcodes.php:218
+msgid "Pflegegrad 1 (Geringe Beeinträchtigung)"
+msgstr "Степен на грижа 1 (Леко затруднение)"
+
+#: includes/Frontend/Shortcodes.php:219
+msgid "Pflegegrad 2 (Erhebliche Beeinträchtigung)"
+msgstr "Степен на грижа 2 (Значително затруднение)"
+
+#: includes/Frontend/Shortcodes.php:220
+msgid "Pflegegrad 3 (Schwere Beeinträchtigung)"
+msgstr "Степен на грижа 3 (Тежко затруднение)"
+
+#: includes/Frontend/Shortcodes.php:221
+msgid "Pflegegrad 4 (Schwerste Beeinträchtigung)"
+msgstr "Степен на грижа 4 (Много тежко затруднение)"
+
+#: includes/Frontend/Shortcodes.php:222
+msgid "Pflegegrad 5 (Härtefall / Vollpflege)"
+msgstr "Степен на грижа 5 (Изключително тежък случай / пълна грижа)"
+
+#: includes/Frontend/Shortcodes.php:224
+msgid "Ansprüche berechnen"
+msgstr "Изчисли правата"
+
+#: includes/Frontend/Shortcodes.php:385
+msgid "Information in Leichter Sprache"
+msgstr "Информация на лесен език"
+
+#: includes/Frontend/Shortcodes.php:410
+msgid "Text nach den Regeln der Leichten Sprache (DIN SPEC 33429)."
+msgstr "Текст съгласно правилата за лесен език (DIN SPEC 33429)."

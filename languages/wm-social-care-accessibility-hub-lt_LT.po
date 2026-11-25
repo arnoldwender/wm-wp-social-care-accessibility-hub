@@ -1,0 +1,534 @@
+# Translation of wm-social-care-accessibility-hub in lt_LT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-social-care-accessibility-hub 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-social-care-accessibility-hub\n"
+"POT-Creation-Date: 2026-11-21 15:56+0100\n"
+"PO-Revision-Date: 2026-11-21 15:58+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-social-care-"
+"accessibility-hub/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-social-care-"
+"accessibility-hub/issues>\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : "
+"n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-social-care-accessibility-hub\n"
+
+#: includes/API/REST_Controller.php:55
+msgid "Nur Leseanfragen (GET) sind für diesen Endpunkt erlaubt."
+msgstr "Šiam galiniam taškui leidžiamos tik skaitymo (GET) užklausos."
+
+#: includes/API/REST_Controller.php:66
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Per daug užklausų. Bandykite dar kartą po minutės."
+
+#: includes/Admin/Admin_Dashboard.php:73 includes/Admin/Admin_Dashboard.php:185
+msgid "Social Care Accessibility Hub"
+msgstr "Slaugos prieinamumo centras"
+
+#: includes/Admin/Admin_Dashboard.php:74
+msgid "Social Care A11y"
+msgstr "Social Care A11y"
+
+#: includes/Admin/Admin_Dashboard.php:124
+msgid "Leichte-Sprache-Karte"
+msgstr "Lengvosios kalbos kortelė"
+
+#: includes/Admin/Admin_Dashboard.php:126
+msgid ""
+"Shortcode wm_leichte_sprache_card mit Mediopunkt-Trennung für Fachbegriffe."
+msgstr ""
+"Trumpasis kodas wm_leichte_sprache_card su Mediopunkt skyrikliu sudurtiniams "
+"terminams."
+
+#: includes/Admin/Admin_Dashboard.php:129
+msgid "Pflege-Bedarfscheck"
+msgstr "Slaugos išmokų patikra"
+
+#: includes/Admin/Admin_Dashboard.php:131
+msgid ""
+"Shortcode wm_social_care_bedarfscheck: gesetzliche Höchstbeträge nach §§ 36, "
+"37, 42a und 45b SGB XI für die Pflegegrade 1 bis 5."
+msgstr ""
+"Trumpasis kodas wm_social_care_bedarfscheck: įstatyme nustatytos maksimalios "
+"sumos pagal SGB XI 36, 37, 42a ir 45b str. 1–5 slaugos lygiams."
+
+#: includes/Admin/Admin_Dashboard.php:134
+msgid "Barrierefreiheits-Toolbar"
+msgstr "Prieinamumo įrankių juosta"
+
+#: includes/Admin/Admin_Dashboard.php:136
+msgid "Shortcode wm_a11y_toolbar: Schriftgröße, Kontrast, Vorlesen."
+msgstr ""
+"Trumpasis kodas wm_a11y_toolbar: šrifto dydis, kontrastas, skaitymas balsu."
+
+#: includes/Admin/Admin_Dashboard.php:139
+msgid "Videothek"
+msgstr "Vaizdo biblioteka"
+
+#: includes/Admin/Admin_Dashboard.php:141
+msgid ""
+"Shortcode wm_videothek_loesungswege: die acht eingebauten Beispiele "
+"untereinander."
+msgstr ""
+"Trumpasis kodas wm_videothek_loesungswege: aštuoni integruoti pavyzdžiai "
+"vienas po kito."
+
+#: includes/Admin/Admin_Dashboard.php:144
+msgid "Einzelner Player"
+msgstr "Atskiras grotuvas"
+
+#: includes/Admin/Admin_Dashboard.php:146
+msgid ""
+"Shortcode wm_video_player: ein eingebautes Beispiel über das Attribut id (1 "
+"bis 8)."
+msgstr ""
+"Trumpasis kodas wm_video_player: vienas integruotas pavyzdys per atributą id "
+"(nuo 1 iki 8)."
+
+#: includes/Admin/Admin_Dashboard.php:149
+msgid "Beitragstyp Lösungsweg"
+msgstr "Įrašų tipas Lösungsweg"
+
+#: includes/Admin/Admin_Dashboard.php:154
+#, php-format
+msgid ""
+"%d Lösungsweg veröffentlicht. Die Shortcodes wm_videothek_loesungswege und "
+"wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute "
+"Beispiele."
+msgid_plural ""
+"%d Lösungswege veröffentlicht. Die Shortcodes wm_videothek_loesungswege und "
+"wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute "
+"Beispiele."
+msgstr[0] ""
+"Paskelbtas %d Lösungsweg įrašas. Trumpieji kodai wm_videothek_loesungswege "
+"ir wm_video_player rodo ne šiuos įrašus, o aštuonis integruotus pavyzdžius."
+msgstr[1] ""
+"Paskelbti %d Lösungswege įrašai. Trumpieji kodai wm_videothek_loesungswege "
+"ir wm_video_player rodo ne šiuos įrašus, o aštuonis integruotus pavyzdžius."
+msgstr[2] ""
+"Paskelbta %d Lösungswege įrašų. Trumpieji kodai wm_videothek_loesungswege ir "
+"wm_video_player rodo ne šiuos įrašus, o aštuonis integruotus pavyzdžius."
+
+#: includes/Admin/Admin_Dashboard.php:174
+msgid ""
+"Auswahl des Pflegegrads mit den gesetzlichen Höchstbeträgen (Stand der "
+"Beträge im Code)."
+msgstr ""
+"Slaugos lygio pasirinkimas su įstatyme nustatytomis maksimaliomis sumomis "
+"(data nurodyta kode)."
+
+#: includes/Admin/Admin_Dashboard.php:175
+msgid ""
+"Content-Box in Leichter Sprache mit Mediopunkt; Attribute title und "
+"pictogram, Inhalt zwischen den Tags."
+msgstr ""
+"Lengvosios kalbos turinio blokas su Mediopunkt; atributai title ir "
+"pictogram, turinys tarp žymų."
+
+#: includes/Admin/Admin_Dashboard.php:176
+msgid "Barrierefreiheits-Toolbar (Schriftgröße, Kontrast, Vorlesen)."
+msgstr ""
+"Prieinamumo įrankių juosta (šrifto dydis, kontrastas, skaitymas balsu)."
+
+#: includes/Admin/Admin_Dashboard.php:177
+msgid "Alle acht eingebauten Beispiel-Lösungswege untereinander, ohne Filter."
+msgstr "Visi aštuoni integruoti pavyzdžiai vienas po kito be filtro."
+
+#: includes/Admin/Admin_Dashboard.php:178
+msgid ""
+"Ein eingebautes Beispiel mit Schritten und Zusammenfassung in Leichter "
+"Sprache; Attribut id (1 bis 8)."
+msgstr ""
+"Vienas integruotas pavyzdys su žingsniais ir santrauka lengvąja kalba; "
+"atributas id (nuo 1 iki 8)."
+
+#: includes/Admin/Admin_Dashboard.php:184
+msgid "Leichte Sprache & Pflege"
+msgstr "Lengvoji kalba ir slauga"
+
+#: includes/Admin/Admin_Dashboard.php:186
+msgid ""
+"Was dieses Plugin auf dieser Website registriert. Es prüft keine Seite auf "
+"Barrierefreiheit und bewertet keine Rechtskonformität."
+msgstr ""
+"Ką šis įskiepis užregistruoja šioje svetainėje. Jis netikrina puslapių "
+"prieinamumo ir nevertina teisinės atitikties."
+
+#: includes/Admin/Admin_Dashboard.php:189
+msgid "Part of the WM Suite plugin family"
+msgstr "WM Suite įskiepių šeimos dalis"
+
+#: includes/Admin/Admin_Dashboard.php:191
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Hub"
+msgstr "Centras"
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Standalone"
+msgstr "Savarankiškas"
+
+#: includes/Admin/Admin_Dashboard.php:198
+msgid "Registrierte Funktionen"
+msgstr "Registruotos funkcijos"
+
+#: includes/Admin/Admin_Dashboard.php:200
+msgid ""
+"Jeder Status wird beim Aufruf dieser Seite gemessen, nicht behauptet. "
+"Skripte und Stile liegen im Plugin; die eingebauten Beispiele enthalten kein "
+"Video."
+msgstr ""
+"Kiekviena būsena išmatuojama atidarius šį puslapį. Scenarijai ir stiliai yra "
+"įskiepyje; integruotuose pavyzdžiuose nėra vaizdo įrašų."
+
+#: includes/Admin/Admin_Dashboard.php:204
+msgid "Funktion"
+msgstr "Funkcija"
+
+#: includes/Admin/Admin_Dashboard.php:205
+msgid "Status"
+msgstr "Būsena"
+
+#: includes/Admin/Admin_Dashboard.php:206
+msgid "Was registriert ist"
+msgstr "Kas užregistruota"
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Nicht registriert"
+msgstr "Neužregistruota"
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Registriert"
+msgstr "Užregistruota"
+
+#: includes/Admin/Admin_Dashboard.php:226
+msgid "Shortcodes für Seiten und Beiträge"
+msgstr "Trumpieji kodai puslapiams ir įrašams"
+
+#: includes/Admin/Admin_Dashboard.php:235
+msgid "Deinstallation & Datenerhalt"
+msgstr "Pašalinimas ir duomenų išsaugojimas"
+
+#: includes/Admin/Admin_Dashboard.php:236
+msgid ""
+"Standardmäßig bewahrt das Plugin alle Optionen und Inhalte beim Löschen auf. "
+"Aktivieren Sie die folgende Option nur, wenn Plugin-Einstellungen und "
+"temporäre Rate-Limit-Daten bei der Deinstallation endgültig entfernt werden "
+"sollen."
+msgstr ""
+"Pagal numatytuosius nustatymus ištrinant įskiepį išsaugomos visos parinktys "
+"ir turinys. Įjunkite žemiau esančią parinktį tik tuo atveju, jei pašalinant "
+"reikia negrįžtamai ištrinti įskiepio nuostatas ir laikinus užklausų ribojimo "
+"duomenis."
+
+#: includes/Admin/Admin_Dashboard.php:249
+msgid ""
+"Plugin-Optionen und Rate-Limit-Transients beim Löschen des Plugins entfernen "
+"(Beiträge vom Typ Lösungsweg bleiben als Website-Inhalt erhalten)."
+msgstr ""
+"Pašalinti įskiepio parinktis ir užklausų ribojimo laikinus įrašus ištrinant "
+"įskiepį (Lösungsweg įrašai lieka kaip svetainės turinys)."
+
+#: includes/Admin/Admin_Dashboard.php:252
+msgid "Einstellung speichern"
+msgstr "Išsaugoti nustatymą"
+
+#: includes/Domain/Video_Repository.php:25
+msgid "Lösungswege"
+msgstr "Sprendimų gidai"
+
+#: includes/Domain/Video_Repository.php:26
+msgid "Lösungsweg"
+msgstr "Sprendimų gidas"
+
+#: includes/Domain/Video_Repository.php:27
+msgid "Neuen Lösungsweg anlegen"
+msgstr "Pridėti naują sprendimų gidą"
+
+#: includes/Domain/Video_Repository.php:28
+msgid "Lösungsweg bearbeiten"
+msgstr "Redaguoti sprendimų gidą"
+
+#: includes/Domain/Video_Repository.php:29
+msgid "Lösungswege durchsuchen"
+msgstr "Ieškoti sprendimų gidų"
+
+#: includes/Domain/Video_Repository.php:30
+msgid "Keine Lösungswege gefunden"
+msgstr "Sprendimų gidų nerasta"
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorie"
+msgstr "Kategorija"
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorien"
+msgstr "Kategorijos"
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppe"
+msgstr "Tikslinė grupė"
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppen"
+msgstr "Tikslinės grupės"
+
+#: includes/Domain/Video_Repository.php:56
+msgid "Hilfsmittel"
+msgstr "Pagalbinės priemonės"
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrad"
+msgstr "Slaugos lygis"
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrade"
+msgstr "Slaugos lygiai"
+
+#: includes/Frontend/Accessibility_Toolbar.php:18
+msgid "Vorlesen"
+msgstr "Skaityti balsu"
+
+#: includes/Frontend/Accessibility_Toolbar.php:19
+msgid "Stopp"
+msgstr "Sustabdyti"
+
+#: includes/Frontend/Accessibility_Toolbar.php:20
+msgid "Ihr Browser unterstützt keine direkte Sprachausgabe."
+msgstr "Jūsų naršyklė nepalaiko tiesioginės kalbos sintezės."
+
+#: includes/Frontend/Accessibility_Toolbar.php:25
+msgid "Barrierefreiheits-Optionen"
+msgstr "Prieinamumo parinktys"
+
+#: includes/Frontend/Accessibility_Toolbar.php:28
+msgid "Schriftgröße anpassen"
+msgstr "Keisti šrifto dydį"
+
+#: includes/Frontend/Accessibility_Toolbar.php:29
+msgid "Schriftgröße verkleinern"
+msgstr "Sumažinti šrifto dydį"
+
+#: includes/Frontend/Accessibility_Toolbar.php:30
+msgid "Schriftgröße zurücksetzen"
+msgstr "Atkurti šrifto dydį"
+
+#: includes/Frontend/Accessibility_Toolbar.php:31
+msgid "Schriftgröße vergrößern"
+msgstr "Padidinti šrifto dydį"
+
+#: includes/Frontend/Accessibility_Toolbar.php:35
+msgid "Farbkontrast wählen"
+msgstr "Pasirinkti spalvų kontrastą"
+
+#: includes/Frontend/Accessibility_Toolbar.php:38
+msgid "Kontrast"
+msgstr "Kontrastas"
+
+#: includes/Frontend/Accessibility_Toolbar.php:43
+msgid "Vorlesefunktion"
+msgstr "Skaitymo balsu funkcija"
+
+#. translators: %s: title of the example.
+#: includes/Frontend/Accessible_Video_Player.php:32
+#, php-format
+msgid "Lösungsweg: %s"
+msgstr "Sprendimų gidas: %s"
+
+#: includes/Frontend/Accessible_Video_Player.php:42
+msgid "Dauer:"
+msgstr "Trukmė:"
+
+#: includes/Frontend/Accessible_Video_Player.php:59
+msgid "Deutsch (Untertitel)"
+msgstr "Vokiečių (subtitrai)"
+
+#: includes/Frontend/Accessible_Video_Player.php:66
+msgid "Ihr Browser unterstützt kein direktes HTML5-Video."
+msgstr "Jūsų naršyklė nepalaiko tiesioginio HTML5 vaizdo įrašo."
+
+#: includes/Frontend/Accessible_Video_Player.php:78
+msgid "Schritt-für-Schritt-Anleitung:"
+msgstr "Žingsnis po žingsnio instrukcija:"
+
+#: includes/Frontend/Accessible_Video_Player.php:92
+msgid "In Leichter Sprache (DIN SPEC 33429):"
+msgstr "Lengvąja kalba (DIN SPEC 33429):"
+
+#: includes/Frontend/Ecosystem_Integrations.php:27
+#: includes/Frontend/Ecosystem_Integrations.php:36
+msgid "Social Care SGB-XI-Info"
+msgstr "Social Care SGB XI informacija"
+
+#: includes/Frontend/Ecosystem_Integrations.php:40
+msgid "Gesetzliche SGB-XI-Höchstbeträge und Stand der Beträge."
+msgstr "SGB XI įstatymo maksimalios sumos ir įsigaliojimo data."
+
+#: includes/Frontend/Ecosystem_Integrations.php:44
+msgid "Feld"
+msgstr "Laukas"
+
+#: includes/Frontend/Ecosystem_Integrations.php:47
+msgid "Zusammenfassung (Entlastungsbetrag)"
+msgstr "Santrauka (palengvinimo išmoka)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:48
+msgid "Entlastungsbetrag / Monat"
+msgstr "Palengvinimo išmoka / mėn."
+
+#: includes/Frontend/Ecosystem_Integrations.php:49
+msgid "Entlastungsbetrag / Jahr"
+msgstr "Palengvinimo išmoka / m."
+
+#: includes/Frontend/Ecosystem_Integrations.php:50
+msgid "Pflegegeld / Monat (§ 37)"
+msgstr "Slaugos išmoka / mėn. (§ 37)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:51
+msgid "Pflegesachleistung / Monat (§ 36)"
+msgstr "Slaugos paslaugos / mėn. (§ 36)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:52
+msgid "Gemeinsamer Jahresbetrag (§ 42a)"
+msgstr "Bendras metinis biudžetas (§ 42a)"
+
+#: includes/Frontend/Ecosystem_Integrations.php:53
+msgid "Stand der Beträge"
+msgstr "Sumų įsigaliojimo data"
+
+#: includes/Frontend/Ecosystem_Integrations.php:54
+msgid "Anzahl Beispiel-Lösungswege"
+msgstr "Pavyzdinių gidų skaičius"
+
+#: includes/Frontend/Ecosystem_Integrations.php:59
+msgid "Pflegegrad (1–5)"
+msgstr "Slaugos lygis (1–5)"
+
+#. translators: 1: monthly relief amount in euros, 2: statutory as-of date.
+#: includes/Frontend/Ecosystem_Integrations.php:91
+#, php-format
+msgid "Entlastungsbetrag: %1$s / Monat (Stand %2$s)"
+msgstr "Palengvinimo išmoka: %1$s / mėn. (būklė %2$s)"
+
+#: includes/Frontend/Shortcodes.php:112 includes/Frontend/Shortcodes.php:114
+msgid "Beispiel-Lösungswege"
+msgstr "Pavyzdiniai sprendimų gidai"
+
+#: includes/Frontend/Shortcodes.php:115
+msgid ""
+"Acht eingebaute Beispiele mit Schritt-für-Schritt-Anleitung und einer "
+"Zusammenfassung in Leichter Sprache."
+msgstr ""
+"Aštuoni integruoti pavyzdžiai su žingsnis po žingsnio instrukcijomis ir "
+"santrauka lengvąja kalba."
+
+#. translators: %d: care degree from 1 to 5.
+#: includes/Frontend/Shortcodes.php:194
+#, php-format
+msgid "Ergebnis für Pflegegrad %d:"
+msgstr "Rezultatas %d slaugos lygiui:"
+
+#: includes/Frontend/Shortcodes.php:195
+msgid "Entlastungsbetrag (§ 45b SGB XI):"
+msgstr "Palengvinimo išmoka (§ 45b SGB XI):"
+
+#. translators: 1: monthly amount in euros, 2: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:197
+#, php-format
+msgid "%1$s € / Monat (%2$s € / Jahr für Alltagsbegleitung)"
+msgstr "%1$s € / mėn. (%2$s € / m. kasdienei pagalbai)"
+
+#: includes/Frontend/Shortcodes.php:198
+msgid "Pflegegeld (§ 37 SGB XI):"
+msgstr "Slaugos išmoka (§ 37 SGB XI):"
+
+#. translators: %s: monthly amount in euros.
+#: includes/Frontend/Shortcodes.php:200
+#, php-format
+msgid "%s € / Monat"
+msgstr "%s € / mėn."
+
+#: includes/Frontend/Shortcodes.php:201
+msgid ""
+"Verhinderungs- und Kurzzeitpflege (§ 42a SGB XI, gemeinsamer Jahresbetrag):"
+msgstr ""
+"Pavadavimo ir trumpalaikė slauga (§ 42a SGB XI, bendras metinis biudžetas):"
+
+#. translators: %s: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:203
+#, php-format
+msgid "Bis zu %s € / Jahr"
+msgstr "Iki %s € / m."
+
+#: includes/Frontend/Shortcodes.php:204
+msgid "Anerkennung NRW:"
+msgstr "NRW pripažinimas:"
+
+#: includes/Frontend/Shortcodes.php:205
+msgid "Voll abrechenbar über alle Pflegekassen nach AnFöVO."
+msgstr "Apmokama per slaugos kasas pagal AnFöVO."
+
+#. translators: %s: date of the statutory amounts (YYYY-MM-DD).
+#: includes/Frontend/Shortcodes.php:207
+#, php-format
+msgid "Stand der Beträge: %s (gilt unverändert 2026)."
+msgstr "Sumų data: %s (nesikeičia 2026 m.)."
+
+#: includes/Frontend/Shortcodes.php:211
+msgid "Pflege-Bedarfscheck nach SGB XI"
+msgstr "Slaugos išmokų patikra pagal SGB XI"
+
+#: includes/Frontend/Shortcodes.php:212
+msgid "Pflege-Bedarfscheck (SGB XI & AnFöVO NRW)"
+msgstr "Slaugos išmokų patikra (SGB XI ir AnFöVO NRW)"
+
+#: includes/Frontend/Shortcodes.php:213
+msgid ""
+"Wählen Sie Ihren Pflegegrad, um Ihre gesetzlichen Leistungsansprüche zu "
+"berechnen:"
+msgstr "Pasirinkite slaugos lygį įstatyminėms išmokoms apskaičiuoti:"
+
+#: includes/Frontend/Shortcodes.php:216
+msgid "Aktueller Pflegegrad:"
+msgstr "Dabartinis slaugos lygis:"
+
+#: includes/Frontend/Shortcodes.php:218
+msgid "Pflegegrad 1 (Geringe Beeinträchtigung)"
+msgstr "1 slaugos lygis (Nedidelis sutrikimas)"
+
+#: includes/Frontend/Shortcodes.php:219
+msgid "Pflegegrad 2 (Erhebliche Beeinträchtigung)"
+msgstr "2 slaugos lygis (Žymus sutrikimas)"
+
+#: includes/Frontend/Shortcodes.php:220
+msgid "Pflegegrad 3 (Schwere Beeinträchtigung)"
+msgstr "3 slaugos lygis (Sunkus sutrikimas)"
+
+#: includes/Frontend/Shortcodes.php:221
+msgid "Pflegegrad 4 (Schwerste Beeinträchtigung)"
+msgstr "4 slaugos lygis (Labai sunkus sutrikimas)"
+
+#: includes/Frontend/Shortcodes.php:222
+msgid "Pflegegrad 5 (Härtefall / Vollpflege)"
+msgstr "5 slaugos lygis (Itin sunkus atvejis / pilna slauga)"
+
+#: includes/Frontend/Shortcodes.php:224
+msgid "Ansprüche berechnen"
+msgstr "Apskaičiuoti išmokas"
+
+#: includes/Frontend/Shortcodes.php:385
+msgid "Information in Leichter Sprache"
+msgstr "Informacija lengvąja kalba"
+
+#: includes/Frontend/Shortcodes.php:410
+msgid "Text nach den Regeln der Leichten Sprache (DIN SPEC 33429)."
+msgstr "Tekstas pateiktas pagal lengvosios kalbos taisykles (DIN SPEC 33429)."

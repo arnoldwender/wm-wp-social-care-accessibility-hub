@@ -1,0 +1,461 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the wm-social-care-accessibility-hub package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-social-care-accessibility-hub\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-social-care-accessibility-hub\n"
+"POT-Creation-Date: 2026-11-21 15:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: includes/API/REST_Controller.php:55
+msgid "Nur Leseanfragen (GET) sind für diesen Endpunkt erlaubt."
+msgstr ""
+
+#: includes/API/REST_Controller.php:66
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:73 includes/Admin/Admin_Dashboard.php:185
+msgid "Social Care Accessibility Hub"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:74
+msgid "Social Care A11y"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:124
+msgid "Leichte-Sprache-Karte"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:126
+msgid "Shortcode wm_leichte_sprache_card mit Mediopunkt-Trennung für Fachbegriffe."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:129
+msgid "Pflege-Bedarfscheck"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:131
+msgid "Shortcode wm_social_care_bedarfscheck: gesetzliche Höchstbeträge nach §§ 36, 37, 42a und 45b SGB XI für die Pflegegrade 1 bis 5."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:134
+msgid "Barrierefreiheits-Toolbar"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:136
+msgid "Shortcode wm_a11y_toolbar: Schriftgröße, Kontrast, Vorlesen."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:139
+msgid "Videothek"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:141
+msgid "Shortcode wm_videothek_loesungswege: die acht eingebauten Beispiele untereinander."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:144
+msgid "Einzelner Player"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:146
+msgid "Shortcode wm_video_player: ein eingebautes Beispiel über das Attribut id (1 bis 8)."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:149
+msgid "Beitragstyp Lösungsweg"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:154
+#, php-format
+msgid "%d Lösungsweg veröffentlicht. Die Shortcodes wm_videothek_loesungswege und wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute Beispiele."
+msgid_plural "%d Lösungswege veröffentlicht. Die Shortcodes wm_videothek_loesungswege und wm_video_player zeigen nicht diese Beiträge, sondern acht eingebaute Beispiele."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/Admin_Dashboard.php:174
+msgid "Auswahl des Pflegegrads mit den gesetzlichen Höchstbeträgen (Stand der Beträge im Code)."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:175
+msgid "Content-Box in Leichter Sprache mit Mediopunkt; Attribute title und pictogram, Inhalt zwischen den Tags."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:176
+msgid "Barrierefreiheits-Toolbar (Schriftgröße, Kontrast, Vorlesen)."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:177
+msgid "Alle acht eingebauten Beispiel-Lösungswege untereinander, ohne Filter."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:178
+msgid "Ein eingebautes Beispiel mit Schritten und Zusammenfassung in Leichter Sprache; Attribut id (1 bis 8)."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:184
+msgid "Leichte Sprache & Pflege"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:186
+msgid "Was dieses Plugin auf dieser Website registriert. Es prüft keine Seite auf Barrierefreiheit und bewertet keine Rechtskonformität."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:189
+msgid "Part of the WM Suite plugin family"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:191
+msgid "WM Suite"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Hub"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:192
+msgid "Standalone"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:198
+msgid "Registrierte Funktionen"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:200
+msgid "Jeder Status wird beim Aufruf dieser Seite gemessen, nicht behauptet. Skripte und Stile liegen im Plugin; die eingebauten Beispiele enthalten kein Video."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:204
+msgid "Funktion"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:205
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:206
+msgid "Was registriert ist"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Nicht registriert"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:215
+msgid "Registriert"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:226
+msgid "Shortcodes für Seiten und Beiträge"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:235
+msgid "Deinstallation & Datenerhalt"
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:236
+msgid "Standardmäßig bewahrt das Plugin alle Optionen und Inhalte beim Löschen auf. Aktivieren Sie die folgende Option nur, wenn Plugin-Einstellungen und temporäre Rate-Limit-Daten bei der Deinstallation endgültig entfernt werden sollen."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:249
+msgid "Plugin-Optionen und Rate-Limit-Transients beim Löschen des Plugins entfernen (Beiträge vom Typ Lösungsweg bleiben als Website-Inhalt erhalten)."
+msgstr ""
+
+#: includes/Admin/Admin_Dashboard.php:252
+msgid "Einstellung speichern"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:25
+msgid "Lösungswege"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:26
+msgid "Lösungsweg"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:27
+msgid "Neuen Lösungsweg anlegen"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:28
+msgid "Lösungsweg bearbeiten"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:29
+msgid "Lösungswege durchsuchen"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:30
+msgid "Keine Lösungswege gefunden"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorie"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:43
+msgid "Kategorien"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppe"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:50
+msgid "Zielgruppen"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:56
+msgid "Hilfsmittel"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrad"
+msgstr ""
+
+#: includes/Domain/Video_Repository.php:62
+msgid "Pflegegrade"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:18
+msgid "Vorlesen"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:19
+msgid "Stopp"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:20
+msgid "Ihr Browser unterstützt keine direkte Sprachausgabe."
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:25
+msgid "Barrierefreiheits-Optionen"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:28
+msgid "Schriftgröße anpassen"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:29
+msgid "Schriftgröße verkleinern"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:30
+msgid "Schriftgröße zurücksetzen"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:31
+msgid "Schriftgröße vergrößern"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:35
+msgid "Farbkontrast wählen"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:38
+msgid "Kontrast"
+msgstr ""
+
+#: includes/Frontend/Accessibility_Toolbar.php:43
+msgid "Vorlesefunktion"
+msgstr ""
+
+#. translators: %s: title of the example.
+#: includes/Frontend/Accessible_Video_Player.php:32
+#, php-format
+msgid "Lösungsweg: %s"
+msgstr ""
+
+#: includes/Frontend/Accessible_Video_Player.php:42
+msgid "Dauer:"
+msgstr ""
+
+#: includes/Frontend/Accessible_Video_Player.php:59
+msgid "Deutsch (Untertitel)"
+msgstr ""
+
+#: includes/Frontend/Accessible_Video_Player.php:66
+msgid "Ihr Browser unterstützt kein direktes HTML5-Video."
+msgstr ""
+
+#: includes/Frontend/Accessible_Video_Player.php:78
+msgid "Schritt-für-Schritt-Anleitung:"
+msgstr ""
+
+#: includes/Frontend/Accessible_Video_Player.php:92
+msgid "In Leichter Sprache (DIN SPEC 33429):"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:27
+#: includes/Frontend/Ecosystem_Integrations.php:36
+msgid "Social Care SGB-XI-Info"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:40
+msgid "Gesetzliche SGB-XI-Höchstbeträge und Stand der Beträge."
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:44
+msgid "Feld"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:47
+msgid "Zusammenfassung (Entlastungsbetrag)"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:48
+msgid "Entlastungsbetrag / Monat"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:49
+msgid "Entlastungsbetrag / Jahr"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:50
+msgid "Pflegegeld / Monat (§ 37)"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:51
+msgid "Pflegesachleistung / Monat (§ 36)"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:52
+msgid "Gemeinsamer Jahresbetrag (§ 42a)"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:53
+msgid "Stand der Beträge"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:54
+msgid "Anzahl Beispiel-Lösungswege"
+msgstr ""
+
+#: includes/Frontend/Ecosystem_Integrations.php:59
+msgid "Pflegegrad (1–5)"
+msgstr ""
+
+#. translators: 1: monthly relief amount in euros, 2: statutory as-of date.
+#: includes/Frontend/Ecosystem_Integrations.php:91
+#, php-format
+msgid "Entlastungsbetrag: %1$s / Monat (Stand %2$s)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:112 includes/Frontend/Shortcodes.php:114
+msgid "Beispiel-Lösungswege"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:115
+msgid "Acht eingebaute Beispiele mit Schritt-für-Schritt-Anleitung und einer Zusammenfassung in Leichter Sprache."
+msgstr ""
+
+#. translators: %d: care degree from 1 to 5.
+#: includes/Frontend/Shortcodes.php:194
+#, php-format
+msgid "Ergebnis für Pflegegrad %d:"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:195
+msgid "Entlastungsbetrag (§ 45b SGB XI):"
+msgstr ""
+
+#. translators: 1: monthly amount in euros, 2: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:197
+#, php-format
+msgid "%1$s € / Monat (%2$s € / Jahr für Alltagsbegleitung)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:198
+msgid "Pflegegeld (§ 37 SGB XI):"
+msgstr ""
+
+#. translators: %s: monthly amount in euros.
+#: includes/Frontend/Shortcodes.php:200
+#, php-format
+msgid "%s € / Monat"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:201
+msgid "Verhinderungs- und Kurzzeitpflege (§ 42a SGB XI, gemeinsamer Jahresbetrag):"
+msgstr ""
+
+#. translators: %s: yearly amount in euros.
+#: includes/Frontend/Shortcodes.php:203
+#, php-format
+msgid "Bis zu %s € / Jahr"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:204
+msgid "Anerkennung NRW:"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:205
+msgid "Voll abrechenbar über alle Pflegekassen nach AnFöVO."
+msgstr ""
+
+#. translators: %s: date of the statutory amounts (YYYY-MM-DD).
+#: includes/Frontend/Shortcodes.php:207
+#, php-format
+msgid "Stand der Beträge: %s (gilt unverändert 2026)."
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:211
+msgid "Pflege-Bedarfscheck nach SGB XI"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:212
+msgid "Pflege-Bedarfscheck (SGB XI & AnFöVO NRW)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:213
+msgid "Wählen Sie Ihren Pflegegrad, um Ihre gesetzlichen Leistungsansprüche zu berechnen:"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:216
+msgid "Aktueller Pflegegrad:"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:218
+msgid "Pflegegrad 1 (Geringe Beeinträchtigung)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:219
+msgid "Pflegegrad 2 (Erhebliche Beeinträchtigung)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:220
+msgid "Pflegegrad 3 (Schwere Beeinträchtigung)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:221
+msgid "Pflegegrad 4 (Schwerste Beeinträchtigung)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:222
+msgid "Pflegegrad 5 (Härtefall / Vollpflege)"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:224
+msgid "Ansprüche berechnen"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:385
+msgid "Information in Leichter Sprache"
+msgstr ""
+
+#: includes/Frontend/Shortcodes.php:410
+msgid "Text nach den Regeln der Leichten Sprache (DIN SPEC 33429)."
+msgstr ""

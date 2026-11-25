@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Requires PHP: 8.1 in the plugin header.
+        php-version: ['8.1', '8.2', '8.3']
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php-version }}
+
+    - name: PHP syntax
+      run: |
+        find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l > /dev/null
+
+    - name: Unit test suite
+      run: |
+        # Exit 0 alone is not green: the suite must print its results line with 0 failures (here-string, not
+        # printf | grep -q, which can fail under pipefail on long output). tests/wp-runtime-social-care.php needs WordPress.
+        set +e
+        out=$(php tests/test-suite.php 2>&1); code=$?
+        set -e
+        printf '%s\n' "$out"
+        [ "$code" -eq 0 ]
+        grep -Eq '^  TEST SUITE RESULTS: [1-9][0-9]* PASSED \| 0 FAILED$' <<<"$out"
+
+    - name: Standalone verification gates
+      run: |
+        for gate in tests/test-*.php; do
+          case "$gate" in
+            tests/test-suite.php|tests/test-social-care-hub.php|tests/test-pot-freshness.php) continue ;;
+          esac
+          php "$gate"
+        done
+
+    # `wp i18n make-pot` IS the definition of a fresh catalog in the step below, so wp-cli is a
+    # hard requirement there rather than something it shrugs off. Into $HOME/bin, not the
+    # workspace: an executable in the repo root would land in the copy the mutation runner makes.
+    # No workflow input reaches these commands; the URL is a literal.
+    - name: Install WP-CLI
+      if: matrix.php-version == '8.3'
+      run: |
+        mkdir -p "$HOME/bin"
+        curl -sSL https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o "$HOME/bin/wp"
+        chmod +x "$HOME/bin/wp"
+        echo "$HOME/bin" >> "$GITHUB_PATH"
+
+    # This catalog was current on 2026-09-20 (87 strings, 87 entries). Fifteen of the fleet's
+    # twenty-four were not, and none of them had a check that could notice.
+    - name: Translation catalog freshness
+      if: matrix.php-version == '8.3'
+      run: php tests/test-pot-freshness.php
+
+    - name: Mutation Check
+      # Each entry of tests/mutations.php undone once; the suite must turn red every time (control run first).
+      run: bash tests/run-mutations.sh
+
+    # Static greps for secrets, CDN enqueues, shell calls and unprepared queries; it checks no legal compliance.
+    - name: Security Audit (static checks)
+      run: python3 .github/scripts/security-audit.py

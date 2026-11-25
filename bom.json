@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-16T23:30:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-social-care-accessibility-hub",
+      "version": "1.3.2",
+      "description": "Shortcodes für Pflege- und Betreuungsseiten: Leichte-Sprache-Karte mit Mediopunkt, Pflege-Bedarfscheck mit den gesetzlichen Beträgen nach SGB XI, Barrierefreiheits-Toolbar und eine Videothek mit acht eingebauten Beispiel-Lösungswegen.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-social-care-accessibility-hub@1.3.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "44af633333cdd30bd235e22bb2d21ac369609a7640bcd228c8f34b05a9763ba5"
+        }
+      ]
+    }
+  },
+  "components": []
+}

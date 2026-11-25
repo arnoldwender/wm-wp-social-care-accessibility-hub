@@ -1,0 +1,25 @@
+# WM Social Care Accessibility Hub
+
+> WordPress plugin with five shortcodes for German care and support websites: a care-benefit check with the statutory SGB XI maximum amounts (as of 2025-07-01), an Easy Language card that adds a Mediopunkt to 15 compound words, an accessibility toolbar (text size, high contrast, read aloud) and a video library of eight built-in example guides; plus the post type `wm_loesungsweg`, Block Bindings (`wm-social-care/info`), GenerateBlocks 2.x dynamic tag (`{{wm_social_care_info}}`), and developer hooks. It does not check a site for accessibility and makes no compliance assessment.
+
+## Overview
+
+
+- Shortcodes: `[wm_social_care_bedarfscheck]`, `[wm_leichte_sprache_card]`, `[wm_a11y_toolbar]`, `[wm_videothek_loesungswege]`, `[wm_video_player id="1"]`
+- REST: `wm-social-care/v1` — `GET /loesungswege`, `GET /bedarfscheck?pflegegrad=1..5`
+- WP-CLI: `wp wm-social-care calc`, `wp wm-social-care seed` (lists the examples, writes nothing)
+- Runs without WM Suite Hub; registers as a spoke when the hub is installed
+- Documentation measured against the code: README.md, DEVELOPERS.md
+- Version 1.3.2.
+
+## Standards
+
+- PHP 8.1+ with strict types; WordPress coding style
+- Scripts and styles self-hosted in `/assets/` and inline; the example videos link an external host (open decision)
+- Late escaping / REST argument schema
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-social-care-accessibility-hub/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-social-care-accessibility-hub
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-social-care-accessibility-hub/issues only · no private support · AS IS / no liability (SUPPORT.md)

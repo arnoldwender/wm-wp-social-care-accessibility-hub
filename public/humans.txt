@@ -1,0 +1,46 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+ / 7.x
+    PHP 8.1+ (strict types)
+    No plugin tables (post type and taxonomies only)
+    WP-CLI command and REST routes
+
+    ## Frontend
+    Shortcodes with inline Vanilla JS
+    Scoped CSS custom properties (frontend token sheet)
+    Self-Hosted Scripts and Styles (no CDN)
+
+    ## Quality
+    Standalone test suites with a mutation check on PHP 8.1, 8.2 and 8.3, a runtime check inside WordPress
+    Contrast ratios of the frontend token pairs measured in the tests
+
+# SITE & PROJECT
+
+    Plugin: wm-social-care-accessibility-hub
+    Stack: WordPress Accessibility & Social Care Extension
+    Standards: no runtime dependency on other plugins
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-social-care-accessibility-hub
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.
